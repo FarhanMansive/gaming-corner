@@ -87,15 +87,24 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-evenly;
     max-width: 1400px;
-    margin:20px auto;
+    margin:80px auto;
     align-items: center;
+    min-height: 700px;
+    
 
+}
+.section-content{
+    width: 50%;
+    position: relative;
+    bottom: 10px;
+}
+.gamer-image-section{
+    width:50% ;
+    
 }
 
 
-.gamer-section-image{
-    margin-left: 300px;
-}
+
 
 
 .section-content  h2{
@@ -153,8 +162,14 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     left: 15px;
 }
 .gamer-background-image{
-    position: relative;
-    bottom: 700px;
+    position: absolute;
+    bottom: 120px;
     left: 350px;
+    /* object-fit: cover; */
+    
 }
 /* gamer section ends here */
+
+
+/*online games section start here */
+
