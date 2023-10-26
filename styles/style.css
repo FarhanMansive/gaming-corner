@@ -165,7 +165,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .gamer-background-image{
     position: absolute;
     bottom: 20px;
-    left: 100px;
+    left: 0px;
    
     
 }
@@ -271,5 +271,143 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     bottom: 280px;
 }
 
-/*play instant section start here */
+/*play instant section end here */
+
+/* games section starts here */
+.games-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    min-height: 200px;
+    margin: 80px auto;
+    align-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+    
+}
+.games-option{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 5px ;
+
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    text-align: center;
+
+    
+}
+.games-option img{
+    object-fit: cover;
+}
+.games-option h3{
+    font-size: 20px;
+    color: #0B0223;
+    font-weight: 600;
+
+
+
+
+}
+
+/* games section ends here */
+
+/* footer section starts here */
+.last-section{
+    background: #0B0223;
+    height: 600px;
+    text-align: center;
+    
+    
+    
+}
+.footer-section{
+    max-width: 1400px;
+    margin: 80px auto;
+}
+
+
+
+.logo-container1{
+    display: flex;
+    padding-left:600px ;
+    padding-top: 100px;
+
+    align-items: center;
+    align-content: center;
+   
+
+    }
+.logo-container1 img{
+    width:80px;
+    height: 40px;
+margin-right: 10px;
+}
+.logo-container1 h2{
+    font-size: 45px;
+    font-weight: 700;
+
+
+}
+.footer-options{
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+.footer-options a{
+    text-decoration: none;
+    margin-left: 45px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+.social-images{
+
+    padding-top:60px ;
+}
+.social-images img {
+    margin-left: 25px ;
+}
+
+.footer-options1{
+    padding-top: 60px;
+}
+
+.footer-options1 a{
+    text-decoration: none;
+    margin-left: 25px ;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+
+}
+small{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
+
+
+
+}
+
+
+
+
+/* footer section ends here */
+
+
+
+
 
