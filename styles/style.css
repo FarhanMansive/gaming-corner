@@ -210,14 +210,12 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
     top: 4px;
     left: 4px;
-    
     width: 98%;
     height: 82.5%;
     background: rgba(0, 0, 0, 0.7);
     color:#FF42A5 ;
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
     padding-top: 160px;
     gap: 20px;
@@ -225,4 +223,53 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 /*online games section start here */
+
+/*play instant section start here */
+.play-instant-section{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    margin: 80px auto;
+    align-items: center;
+    min-height: 700px;
+}
+.play-instant-content{
+    width: 50%;
+    padding-bottom: 300px;
+    padding-right: 120px;
+    text-align: right;
+    
+}
+.play-instant-content h2 span{
+    
+    background: linear-gradient(180deg, #F948B2 200%, #8758F1 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-instant-content h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-instant-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+
+
+
+
+}
+.play-instant-images{
+    width: 50%;
+}
+.image-55{
+    padding-left:120px ;
+}
+.image-66{
+    position: relative;
+    bottom: 280px;
+}
+
+/*play instant section start here */
 
