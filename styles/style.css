@@ -37,7 +37,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 .logo-container img{
-    width:90px;
+
     object-fit: cover;
     margin-right: 20px;
 }
@@ -158,14 +158,14 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     color: #FFF;
     font-size: 15px;
     font-weight: 600;
-    position: relative;
+    position: absolute;
     bottom: 50px;
-    left: 15px;
+    left: 180px;
 }
 .gamer-background-image{
     position: absolute;
-    bottom: 20px;
-    left: 0px;
+    left: -250px;
+    top: -80px;
    
     
 }
@@ -336,13 +336,11 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 .logo-container1{
     display: flex;
-    padding-left:600px ;
+    padding-left:590px ;
     padding-top: 100px;
 
     align-items: center;
-    align-content: center;
    
-
     }
 .logo-container1 img{
     width:80px;
@@ -397,9 +395,6 @@ small{
     font-size: 16px;
     font-weight: 500;
 
-
-
-
 }
 
 
@@ -407,6 +402,90 @@ small{
 
 /* footer section ends here */
 
+
+/* responsive styles for mobile and tablet */
+@media screen and (max-width:400px) { 
+ header{
+    width: 400px;
+ }
+    .nav-container{
+    flex-direction: column;
+    max-width: 400px;
+}
+.logo-container{
+padding-right: 220px;
+}
+.nav-items-container{
+    flex-direction: column;
+    padding-right:20px ;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+
+.gamer-section{
+    flex-direction: column;
+    margin: 15px auto;
+    
+}
+.section-content{
+    width: 300px;
+}
+.section-content h2 {
+    font-size: 20px;
+    padding-left: 65px;
+    
+
+}
+.section-content h1 {
+    font-size: 40px;
+    padding-left: 65px;
+    padding-top:15px;
+    
+
+}
+.section-content ul{
+    font-size: 8px;
+    position: relative;
+    right: 5px;
+    padding-top: 20px;
+    
+}
+
+.gamer-image-section{
+    padding-right: 290px;
+}
+.gamer-section-image{
+    width:280px ;
+    
+}
+.sign-in{
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    bottom: 80px;
+    left: 60px;
+    
+
+}
+.go-rough{
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+    bottom: 80px;
+    left: 140px;
+
+}
+.gamer-background-image{
+    width: 350px;
+    height: 300px;
+    left: 5px;
+    margin-top: 35px;
+    
+}
+
+    
+}
 
 
 
