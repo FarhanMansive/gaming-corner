@@ -407,9 +407,9 @@ small{
 
 
 /* responsive styles for mobile and tablet */
-@media screen and (max-width:400px) { 
+@media screen and (max-width:576px) { 
  header{
-    max-width: 400px;
+   
     margin: 0 auto;
     align-items:center;
  }
@@ -428,7 +428,7 @@ small{
 }
 .logo-container{
     position: relative;
-    right: 110px;
+    right: 80px;
 
 }
 .nav-items-container{
@@ -513,22 +513,29 @@ small{
     font-weight: 700;
     color: #0B0223;
 }
+.games-card{
+    
+}
+
 .games-card img{ 
     height:300px ;
     width:300px ;
-    padding-left: 5px;
+    margin-left: 50px;
+    
+   
  
 }
 .games-card-1 img{ 
     height:300px ;
     width:300px ;
-    padding-left: 5px;
+    margin-left: 50px;
+    
     
  
 }
 .watch-now-overlay{
-    width: 287px;
-    margin-left: 5px;
+    width: 293px;
+    margin-left: 50px;
     
 }
 .play-instant-section{
@@ -561,7 +568,7 @@ small{
     width: 400px;
     height: 300px;
     position: relative;
-    right: 165px;
+    right: 125px;
    
 }
 .image-66{
@@ -575,7 +582,7 @@ small{
 .games-container{
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
-    padding-left:5px;
+    padding-left:25px;
     position: relative;
     bottom: 5px;
 }
@@ -594,7 +601,7 @@ small{
 }
 .logo-container1{
 
-    padding-left:80px ;
+    padding-left:130px ;
     padding-top: 10px;
     }
 .logo-container1 img{
@@ -625,6 +632,7 @@ margin-right: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    margin-left: 35px;
 }
 
 .social-images img{
@@ -636,12 +644,13 @@ margin-right: 10px;
     grid-template-columns: repeat(2,1fr);
     font-size: 10px;
     gap: 15px;
-    padding-right: 15px;
+
 }
 .footer-options1 a{
     font-size: 12px;
 }
 small{
+    
     font-size: 10px;
      
 }
