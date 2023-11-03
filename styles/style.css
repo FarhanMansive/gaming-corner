@@ -23,10 +23,11 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 .nav-container{
     min-height: 120px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     max-width: 1440px;
+    margin: 0 auto;
+   
   
 }
 .logo-container{
@@ -37,12 +38,11 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 .logo-container img{
-
     object-fit: cover;
     margin-right: 20px;
 }
 .logo-container h2{
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 700;
     
 }
@@ -53,6 +53,8 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     justify-content: space-evenly;
     align-items: center;
     width: 50%;
+    
+    
 
     
 }
@@ -60,7 +62,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
      padding-left: 20px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #3C354F;
 
 }
@@ -103,20 +105,25 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     width:50% ;
     
 }
+.gamer-section-image{
+    width: 100%;
+}
 
-
+.section-content{
+    width: 100%;
+}
 
 
 
 .section-content  h2{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     padding: 0px;
     
 }
 .section-content h1{
-    font-size: 95px;
+    font-size: 6rem;
     font-weight: 800;
     bottom: 50px;
     position: relative;
@@ -127,7 +134,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 .section-content ul{
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     position: relative;
     right: 50px;
@@ -142,7 +149,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     border: 0;
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
     color: #FFF;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
     position: relative;
     bottom: 50px;
@@ -156,13 +163,14 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     border: 0;
     background: #4EC5F7;
     color: #FFF;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
     position: absolute;
     bottom: 50px;
     left: 180px;
 }
 .gamer-background-image{
+    
     position: absolute;
     left: -250px;
     top: -80px;
@@ -177,12 +185,12 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
 .online-games-title h2{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
 }
 .online-games-title p{
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #534C64;
     font-weight: 400;
 }
@@ -200,6 +208,9 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     margin:80px auto;
     gap: 30px;
 
+}
+.games-card{
+    width: 100%;
 }
 .games-card-1{
     position: relative;
@@ -248,12 +259,12 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 -webkit-text-fill-color: transparent;
 }
 .play-instant-content h2{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     
 }
 .play-instant-content p{
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     color: #534C64;
     text-align: left;
@@ -264,9 +275,11 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     width: 50%;
 }
 .image-55{
+    width: 100%;
     padding-left:120px ;
 }
 .image-66{
+    width:40%;
     position: relative;
     bottom: 280px;
 }
@@ -277,7 +290,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 .games-container{
     display: flex;
     justify-content: center;
-    max-width: 1400px;
+    max-width: 1440px;
     min-height: 200px;
     margin: 80px auto;
     align-content: center;
@@ -307,7 +320,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     object-fit: cover;
 }
 .games-option h3{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0B0223;
     font-weight: 600;
 
@@ -337,19 +350,18 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 .logo-container1{
     display: flex;
-    padding-left:590px ;
+    padding-left:600px ;
     padding-top: 40px;
 
     align-items: center;
    
     }
 .logo-container1 img{
-    width:80px;
-    height: 40px;
-margin-right: 10px;
+    
+margin-right: 25px;
 }
 .logo-container1 h2{
-    font-size: 45px;
+    font-size:2rem;
     font-weight: 700;
 
 
@@ -364,7 +376,7 @@ margin-right: 10px;
 .footer-options a{
     text-decoration: none;
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 600;
     padding-left: 15px;
 
@@ -386,7 +398,7 @@ margin-right: 10px;
     text-decoration: none;
     padding-left: 25px ;
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 
 
@@ -395,21 +407,21 @@ margin-right: 10px;
 }
 small{
     color: rgba(255, 255, 255, 0.20);
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 500;
 
 }
 
 
-
-
 /* footer section ends here */
 
 
-/* responsive styles for mobile and tablet */
+/* responsive styles for mobile */
 @media screen and (max-width:576px) { 
  header{
     padding: 20px;
+    
+    
     
  }
 
@@ -421,19 +433,16 @@ small{
    padding: 20px;
  }
     .nav-container{
+        
     flex-direction: column;
-    padding-left: 100px;
+    margin: 5px auto;
+    
     
 }
-.logo-container{
-    position: relative;
-    right: 80px;
 
-}
+
 .nav-items-container{
     flex-direction: column;
-    position: relative;
-    right: 60px;
     
     gap: 30px;
 }
@@ -445,17 +454,17 @@ small{
     
 }
 .section-content{
-    width: 300px;
-    padding: 10px;
+    
+    padding-left: 40px;
 }
 .section-content h2 {
-    font-size: 20px;
+    font-size: 1.2rem;
     padding-left: 65px;
     
 
 }
 .section-content h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-left: 65px;
     padding-top:15px;
     
@@ -468,7 +477,7 @@ small{
     
 }
 .section-content ul ol{
-    font-size:10px ;
+    font-size:0.8rem ;
 }
 
 .gamer-image-section{
@@ -490,91 +499,87 @@ small{
 .go-rough{
     height: 30px;
     width: 80px;
-    font-size: 10px;
-    bottom: 90px;
-    left: 160px;
+    font-size: 0.6rem;
+    bottom: 80px;
+    left: 200px;
 
 }
 .gamer-background-image{
-    width: 290px;
-    height: 300px;
-    left: 5px;
+    width:100% ;
+    
+    left: 25px;
+    
     margin-top: 35px;
     
 }
 .online-games-section{
     display: grid;
     grid-template-columns: repeat(1,1fr );
+    margin: 50px auto;
 }
 
 .online-games-title h2{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #0B0223;
 }
-.games-card{
-    
-}
+
 
 .games-card img{ 
-    height:300px ;
-    width:300px ;
+   width: 80%;
     margin-left: 35px;
     
    
  
 }
 .games-card-1 img{ 
-    height:300px ;
-    width:300px ;
+   width: 80%;
     margin-left: 35px;
     
     
  
 }
 .watch-now-overlay{
-    width: 293px;
+    width: 78%;
+    height: 84%;
     margin-left: 35px;
     
 }
 .play-instant-section{
     flex-direction:column;
-    max-width: 400px;
+ 
     
     
     
 }
 .play-instant-content{
-   
-   text-align: center;
+
    padding-right: 5px;
    padding-bottom: 75px;
    
       
 }
 .play-instant-content h2{
-   
-    
-    font-size: 20px;
+    text-align: center;
+
+    font-size: 2rem;
 
 }
 .play-instant-content p{
-    font-size: 15px;
-    
+    font-size: 1rem;
+    text-align: center;
 }
     
 .image-55{
-    width: 400px;
-    height: 300px;
+    width: 200%;
     position: relative;
-    right: 140px;
+    right: 120px;
    
 }
 .image-66{
-    width: 150px;
-    height: 150px;
-    top: -120px;
-    left: -80px;
+    width: 60%;
+    top: -100px;
+    left: -70px;
 }
     
 
@@ -584,18 +589,21 @@ small{
     padding-left:25px;
     position: relative;
     bottom: 5px;
+    right: 10px;
 }
 .games-option{
-    width: 90px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
+    
 }
 
 .games-option img{
     object-fit: cover;
-    width: 30px;
+    width: 30%;
 }
 .games-option h3{
-    font-size: 10px;
+    font-size: 0.7rem;
+    
 
 }
 .logo-container1{
@@ -653,5 +661,21 @@ small{
     font-size: 10px;
      
 }
-
 }
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px){
+    header{
+        
+       
+       padding: 30px;
+   }
+   .nav-container{
+    flex-direction: column;
+    gap: 30px;
+    margin: 5px auto;
+
+   }
+
+  
+}
+
