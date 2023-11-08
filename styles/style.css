@@ -135,11 +135,12 @@ body{
 
 
 }
-.section-content ul{
+.section-content p{
+    text-align: left;
     font-size: 1rem;
     font-weight: 500;
     position: relative;
-    right: 50px;
+    left: 20px;
     bottom: 90px;
     
 }
@@ -419,7 +420,7 @@ small{
 /* responsive styles for mobile */
 @media screen and (max-width:576px) { 
  body{
-    padding: 40px;
+   margin: 0px;
  }
     .nav-container{
         
@@ -457,20 +458,22 @@ small{
 .section-content h2 {
     font-size: 1.2rem;
     padding-left: 65px;
+    padding-bottom: 20px;
     
 
 }
 .section-content h1 {
     font-size: 2.5rem;
     padding-left: 65px;
-    padding-top:15px;
+    padding-bottom: 20px;
+  
     
 
 }
-.section-content ul{
-    position: relative;
-    right: 5px;
-    padding-top: 20px;
+.section-content p{
+   padding-left: 60px;
+   font-size: 0.7rem;
+   
     
 }
 .section-content ul ol{
@@ -618,6 +621,7 @@ padding: 10px;
 .footer-section{
     width: 100%;
     padding: 30px;
+    margin: 0px;
 }
 .logo-container1{
 
