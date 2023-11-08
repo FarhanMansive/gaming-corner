@@ -426,7 +426,7 @@ small{
         
     flex-direction: column;
     padding: 20px;
-    margin: 0px auto;
+    
     
     
 }
@@ -434,14 +434,14 @@ small{
     width: 100%;
 }
 .logo-container{
-    padding-left: 70px;
+    padding-left: 80px;
 }
 
 .nav-items-container{
     flex-direction: column;
     gap: 30px;
-    padding: 15px;
-    margin: 0px auto;
+   padding-right: 15px;
+    
     
     
 }
