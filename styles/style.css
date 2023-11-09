@@ -534,23 +534,24 @@ small{
 
 
 .games-card img{ 
-   width: 80%;
-    margin-left: 35px;
+   width: 100%;
+   
+   
     
    
  
 }
 .games-card-1 img{ 
-   width: 80%;
-    margin-left: 35px;
+   width: 100%;
+    
     
     
  
 }
 .watch-now-overlay{
-    width: 78%;
-    height: 84%;
-    margin-left: 35px;
+    width: 98%;
+    height: 87%;
+   
     
 }
 .play-instant-section{
@@ -564,7 +565,7 @@ small{
     
 }
 .play-instant-content{
-    width: 100%;
+width: 100%;
 text-align: center;
 padding: 10px;
  
@@ -583,18 +584,23 @@ padding: 10px;
 }
 .play-instant-images{
     margin-top: 30px;
+    width: 100%;
 }
     
 .image-55{
-    width: 200%;
-    position: relative;
-    right: 120px;
+    width: 80%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 70px;
+    
    
 }
 .image-66{
-    width: 60%;
-    top: -100px;
-    left: -70px;
+    width: 40%;
+    bottom:120px ;
+    
+    
+  
 }
     
 
@@ -688,9 +694,10 @@ small{
    .nav-container{
     flex-direction: column;
     gap: 30px;
-    margin: 5px auto;
+    width: 100%;
+    padding: 50px;
+    }
 
-   }
    .logo-container{
     padding-left: 280px;
     width: 100%;
@@ -699,7 +706,108 @@ small{
     margin-left: 10px;
     width: 100%;
    }
+   .gamer-section{
+    padding: 40px;
+   }
+   .gamer-section-image{
+    width: 100%;
+   }
+   .section-content{
+    width: 100%;
+    padding-top: 80px;
+   }
+   .section-content h2{
+    font-size:1.5rem ;
+
+   }
+   .section-content h1{
+    font-size:3rem;
+
+   }
+   .section-content p{
+   
+    font-size: 0.6rem;
+   }
+   .sign-in{
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    bottom: 80px;
+    
+
+}
+.go-rough{
+    height: 30px;
+    width: 80px;
+    font-size: 0.6rem;
+    bottom: 80px;
+    left: 90px;
+
+}
+.gamer-background-image{
+    width:100% ;
+    
+   bottom: 0px;
+    
+}
+.online-games-title h2{
+    font-size: 2.5rem;
+}
+.online-games-section{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+    
+}
+.games-card img{ 
+    width: 100%;
+ 
+     
+    
+  
+ }
+ .games-card-1 img{ 
+    width: 100%;
+    
+ }
+ .watch-now-overlay{
+     width: 98%;
+     height: 83%;
+ }
+ .play-instant-section{
+    flex-direction: column;
+ }
+ .play-instant-content{
+    width: 100%;
+    text-align: center;
+    padding: 10px;}
+
+    .play-instant-content h2{
+        text-align: center;
+    
+        font-size: 3rem;
+    
+    }
+    .play-instant-content p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .play-instant-images{
+    
+     margin-top: 70px;
+    }
+    .image-55{
+        width: 200%;
+        position: relative;
+        right: 120px;
+       
+    }
+    .image-66{
+        width: 60%;
+        top: -100px;
+        left: -70px;
+    }
+
 
   
 }
-
