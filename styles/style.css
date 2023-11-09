@@ -608,8 +608,7 @@ padding: 10px;
     display: grid;
     grid-template-columns:repeat(3, 1fr) ;
     padding: 30px;
-    position: relative;
-    bottom: 5px;
+   
     
 }
 .games-option{
@@ -627,20 +626,25 @@ padding: 10px;
     
 
 }
+.last-section{
+    padding: 20px;
+    height: 550px;
+}
 .footer-section{
     width: 100%;
-    padding: 30px;
-    margin: 0px;
+    
+   
 }
 .logo-container1{
 
-    padding-left:115px ;
-    padding-top: 10px;
+    padding: 20px ;
+    margin-left:90px ;
+    
     }
 .logo-container1 img{
-    width:50px;
+    width:20%;
     height: 30px;
-margin-right: 10px;
+
 }
 .logo-container1 h2{
     font-size: 25px;
@@ -651,9 +655,9 @@ margin-right: 10px;
 .footer-options{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-top: 20px;
+    
     gap: 15px;
-    padding-right: 10px;
+    
     
     
 }
@@ -667,9 +671,14 @@ margin-right: 10px;
     gap: 25px;
     margin-left: 35px;
 }
+.social-images{
+    margin-left: 25px;
 
+
+}
 .social-images img{
-    width: 30px;
+    width: 30%;
+    
 }
 
 .footer-options1{
@@ -797,15 +806,28 @@ small{
      margin-top: 70px;
     }
     .image-55{
-        width: 200%;
+        width: 150%;
         position: relative;
         right: 120px;
        
     }
     .image-66{
         width: 60%;
-        top: -100px;
+        top: -180px;
         left: -70px;
+    }
+    .games-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 30PX;
+    }
+    .last-section{
+        padding: 20px;
+        
+    }
+    .logo-container1{
+        padding: 20px;
+        margin-left: 250px;
     }
 
 
