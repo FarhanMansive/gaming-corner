@@ -434,7 +434,7 @@ small{
     width: 100%;
 }
 .logo-container{
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .nav-items-container{
@@ -618,7 +618,6 @@ padding: 10px;
 }
 
 .games-option img{
-    object-fit: cover;
     width: 30%;
 }
 .games-option h3{
@@ -708,7 +707,7 @@ small{
     }
 
    .logo-container{
-    padding-left: 280px;
+    padding-left: 220px;
     width: 100%;
    }
    .nav-items-container{
@@ -819,7 +818,7 @@ small{
     .games-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        padding: 30PX;
+        padding: 30px;
     }
     .last-section{
         padding: 20px;
@@ -829,7 +828,16 @@ small{
         padding: 20px;
         margin-left: 250px;
     }
+    .games-option{
+        width: 100%;
+        
+        
+    }
+    
+    .games-option img{
+        width: 20%;
+    }
+    .games-option h3{
+        font-size: 1rem;}
 
-
-  
 }
