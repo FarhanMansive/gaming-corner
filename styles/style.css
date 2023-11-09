@@ -763,24 +763,27 @@ small{
 }
 .online-games-section{
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 5px;
     padding: 20px;
     
 }
 .games-card img{ 
-    width: 100%;
+    width: 80%;
+    margin-left: 40px;
  
      
     
   
  }
  .games-card-1 img{ 
-    width: 100%;
+    width: 80%;
+    margin-left: 40px;
     
  }
  .watch-now-overlay{
-     width: 98%;
-     height: 83%;
+     width: 78%;
+     height: 80%;
+     margin-left: 40px;
  }
  .play-instant-section{
     flex-direction: column;
